@@ -1,0 +1,511 @@
+body {
+    background-color: #f5f5f5;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    margin-top: 1%;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 369px;
+    height: 272px;
+    background-image: linear-gradient(to bottom left, #4073FF , #1A2849);
+    border-radius: 20px;
+    margin-left: 10px;
+}
+
+.logo {
+    position: absolute;
+    margin-left: 15px;
+    margin-top: -25px;
+    width: 115px;
+}
+
+
+.text {
+    font-family: TT;
+    font-size: 10px;
+    color: white;
+}
+
+.services {
+    font-family: Benzin;
+    font-size: 22px;
+    margin-left: 55px;
+    margin-top: 40px;
+}
+
+.target {
+    position: absolute;
+    font-size: 40px;
+    margin-left: 15px;
+    margin-top: 20px;
+}
+
+.card {
+    width: 365px;
+    height: 243px;
+    background-color: white;
+    border-radius: 25px;
+    margin-left: 10px;
+    margin-top: 20px;
+    box-shadow: 0 0 10px  #004cff ;
+}
+
+.Parser {
+    font-family: Benzin;
+    margin-left: 24px;
+    padding-top: 14px;
+}
+
+
+.text2 {
+    font-family: TT;
+    color: black;
+    font-size: 12px;
+    margin-left: 24px;
+    margin-top: 5px;
+}
+
+.price { 
+    font-family: TTbold;
+    font-size: 26px;
+    margin-left: 24px;
+    color: #4073FF;
+}
+
+.setting {
+    width: 65px;
+    position: absolute;
+    margin-top: -190px;
+    margin-left: 287px;
+}
+
+.card-buy {
+    display: flex;
+    width: 121px;
+    height: 40px;
+    background-color: #4073FF;
+    position: absolute;
+    margin-top: -45px;
+    margin-left: 230px;
+    border-radius: 10px;
+    
+} 
+
+.Buy {
+    font-family: TTbold;
+    color: #ffffff;    
+    font-size: 20px;
+    margin-left: 15px;
+    margin-top: 5px;
+    text-decoration: none;
+
+}
+
+
+.card-buy:hover {
+    transition: 1s ease;
+    background-color: #454545;
+}
+
+
+.Buy:hover {
+    transition: 0.7s ease;
+    color: #00d9ff;
+}
+
+.card2 {
+    width: 365px;
+    height: 243px;
+    background-color: white;
+    border-radius: 25px;
+    margin-left: 10px;
+    margin-top: 20px;
+    box-shadow: 0 0 10px  #004cff ;
+}
+
+.Design {
+    font-family: Benzin;
+    margin-left: 24px;
+    padding-top: 14px;
+}
+
+.Brush {
+    width: 65px;
+    position: absolute;
+    margin-top: -145px;
+    margin-left: 287px;
+}
+
+
+.text3 {
+    font-family: TT;
+    color: black;
+    font-size: 12px;
+    margin-left: 24px;
+    margin-top: 0px;
+}
+
+.card-buy2 {
+    display: flex;
+    width: 121px;
+    height: 40px;
+    background-color: #4073FF;
+    position: absolute;
+    margin-top: 28px;
+    margin-left: 230px;
+    border-radius: 10px;
+    
+} 
+
+.Buy2 {
+    font-family: TTbold;
+    color: #ffffff;    
+    font-size: 20px;
+    margin-left: 15px;
+    margin-top: 5px;
+    text-decoration: none;
+
+}
+
+.card-buy2:hover {
+    transition: 1s ease;
+    background-color: #454545;
+}
+
+
+.Buy2:hover {
+    transition: 0.7s ease;
+    color: #00d9ff;
+}
+
+.price2 {
+    position: absolute;
+    font-family: TTbold;
+    font-size: 26px;
+    margin-left: 24px;
+    color: #4073FF;
+    margin-top: 33px;
+    
+}
+
+
+
+
+.card3 {
+    width: 365px;
+    height: 243px;
+    background-color: white;
+    border-radius: 25px;
+    margin-left: 10px;
+    margin-top: 20px;
+    box-shadow: 
+    0 3px 10px  #B71D1D,
+    0 -3px 10px  #004cff;
+}
+
+.brain {
+    font-family: Benzin;
+    margin-left: 24px;
+    padding-top: 14px;
+    font-size: 17px;
+}
+
+.brn {
+    width: 65px;
+    position: absolute;
+    margin-top: -135px;
+    margin-left: 287px;
+}
+
+
+.text3 {
+    font-family: TT;
+    color: black;
+    font-size: 12px;
+    margin-left: 24px;
+    margin-top: 10px;
+}
+
+.card-buy3 {
+    display: flex;
+    width: 121px;
+    height: 40px;
+    background-color: #4073FF;
+    position: absolute;
+    margin-top: 40px;
+    margin-left: 230px;
+    border-radius: 10px;
+    
+} 
+
+.Buy3 {
+    font-family: TTbold;
+    color: #ffffff;    
+    font-size: 20px;
+    margin-left: 17px;
+    margin-top: 5px;
+    text-decoration: none;
+
+}
+
+.card-buy3:hover {
+    transition: 1s ease;
+    background-color: #454545;
+}
+
+
+
+.Buy3:hover {
+    transition: 0.7s ease;
+    color: #00d9ff;
+}
+
+.price3 {
+    position: absolute;
+    font-family: TTbold;
+    font-size: 21px;
+    margin-left: 24px;
+    color: #4073FF;
+    margin-top: 50px;
+    
+}
+
+.agreement {
+    position: absolute;
+    font-family: MR;
+    color: #B71D1D;
+    margin-top: 30px;
+    margin-left: 29px;
+}
+
+
+
+.card4 {
+    width: 365px;
+    height: 243px;
+    background-color: white;
+    border-radius: 25px;
+    margin-left: 10px;
+    margin-top: 20px;
+    box-shadow: 0 0 10px  #bf0d10 ;
+}
+
+.Web {
+    font-family: Benzin;
+    margin-left: 24px;
+    padding-top: 14px;
+    font-size: 19px;
+}
+
+.Planet {
+    width: 65px;
+    position: absolute;
+    margin-top: -135px;
+    margin-left: 287px;
+}
+
+
+.text4 {
+    font-family: TT;
+    color: black;
+    font-size: 12px;
+    margin-left: 24px;
+    margin-top: 10px;
+}
+
+.card-buy4 {
+    display: flex;
+    width: 121px;
+    height: 40px;
+    background-color: #4073FF;
+    position: absolute;
+    margin-top: 40px;
+    margin-left: 230px;
+    border-radius: 10px;
+    
+} 
+
+.Buy4 {
+    font-family: TTbold;
+    color: #ffffff;    
+    font-size: 20px;
+    margin-left: 17px;
+    margin-top: 5px;
+    text-decoration: none;
+
+}
+
+.card-buy4:hover {
+    transition: 1s ease;
+    background-color: #454545;
+}
+
+
+
+.Buy4:hover {
+    transition: 0.7s ease;
+    color: #00d9ff;
+}
+
+.price4 {
+    position: absolute;
+    font-family: TTbold;
+    font-size: 21px;
+    margin-left: 24px;
+    color: #4073FF;
+    margin-top: 50px;
+    
+}
+
+
+
+.card5 {
+    width: 365px;
+    height: 243px;
+    background-color: white;
+    border-radius: 25px;
+    margin-left: 10px;
+    margin-top: 20px;
+    box-shadow: 0 0 10px  #bf0d10 ;
+}
+
+.Bot {
+    font-family: Benzin;
+    margin-left: 24px;
+    padding-top: 14px;
+    font-size: 19px;
+}
+
+.Python {
+    width: 65px;
+    position: absolute;
+    margin-top: -120px;
+    margin-left: 287px;
+}
+
+
+.text5 {
+    font-family: TT;
+    color: black;
+    font-size: 12px;
+    margin-left: 24px;
+    margin-top: 25px;
+}
+
+.card-buy5 {
+    display: flex;
+    width: 121px;
+    height: 40px;
+    background-color: #4073FF;
+    position: absolute;
+    margin-top: 40px;
+    margin-left: 230px;
+    border-radius: 10px;
+    
+} 
+
+.Buy5 {
+    font-family: TTbold;
+    color: #ffffff;    
+    font-size: 20px;
+    margin-left: 17px;
+    margin-top: 5px;
+    text-decoration: none;
+
+}
+
+.card-buy5:hover {
+    transition: 1s ease;
+    background-color: #454545;
+}
+
+
+
+.Buy5:hover {
+    transition: 0.7s ease;
+    color: #00d9ff;
+}
+
+.price5 {
+    position: absolute;
+    font-family: TTbold;
+    font-size: 21px;
+    margin-left: 24px;
+    color: #4073FF;
+    margin-top: 50px;
+    
+}
+
+
+.sale {
+    font-family: Benzin;
+    font-size: 22px;
+    margin-left: 55px;
+    margin-top: 40px;
+}
+
+.Money {
+    position: absolute;
+    font-size: 40px;
+    margin-left: 15px;
+    margin-top: 20px;
+}
+
+.panteone {
+    position: absolute;
+    width: 365px;
+    margin-left: 11px;
+    border-radius: 15px;
+    margin-top: 150px;
+}
+
+.club {
+    width: 365px;
+    margin-left: 11px;
+    border-radius: 15px;
+}
+
+footer {
+    margin-bottom: 20%;
+}
+
+
+@font-face {
+    font-family: MR;
+    src: url(fonts/mr_HamiltoneG_Rus_Regular_LaHoVp.otf);
+}
+
+
+
+@font-face {
+    font-family: TTbold;
+    src: url(fonts/TTLakes-Bold.woff);
+}
+
+
+@font-face {
+    font-family: TT;
+    src: url(fonts/TTLakes-Medium.woff);
+}
+
+
+@font-face {
+    font-family: Benzin;
+    src: url(fonts/benzin-bold\ \(1\).otf);
+}
+
+
+@media (max-width:320px) {
+
+}
